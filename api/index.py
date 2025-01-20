@@ -3,7 +3,7 @@ import json
 from http.server import BaseHTTPRequestHandler
 import urllib.parse
 
-file_path = 'q-vercel-python.json'
+file_path = 'api/q-vercel-python.json'
 with open (file_path, 'r') as file:
     data = json.load (file)
 
